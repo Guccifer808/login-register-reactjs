@@ -8,9 +8,7 @@ const Login = () => {
         {/* form */}
         <div className='md:w-1/2 px-8 md:px-16'>
           <div className='font-bold text-2xl text-[#002D74]'>Login</div>
-          <p class='text-xs mt-4 text-[#002D74]'>
-            Log in you are already a member
-          </p>
+          <p class='text-xs mt-4 text-[#002D74]'>Log in if you are a member</p>
           <form action='' class='flex flex-col gap-4'>
             <input
               type='email'
